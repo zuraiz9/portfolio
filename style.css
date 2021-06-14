@@ -6,7 +6,6 @@
 
 body {
   color: black;
-  line-height: 1.6;
 }
 ul {
   list-style-type: none;
@@ -16,13 +15,15 @@ a {
   text-decoration: none;
   color: black;
 }
+
+/* Nav bar */
 .logo {
   font-family: "PT Sans", sans-serif;
   font-size: 38px;
 }
 
 .navbar {
-  background-color: aqua;
+  background-color: white;
   height: 80px;
 }
 
@@ -37,12 +38,10 @@ a {
   letter-spacing: 0.4px;
 }
 
-
 .navbar a:hover {
   border-bottom: 2px black solid;
 }
 .container {
-  max-width: 1100px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -52,4 +51,45 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+
+/*homepage */
+
+.home {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 2px solid black;
+  padding: 50px;
+}
+
+.headline {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.home button {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border: 0;
+}
+
+.name {
+  color: rgba(105, 55, 255, 1);
+}
+
+.background {
+  width: 100%;
+  height: 120vh;
+  background-color: rgba(253, 245, 236, 1);
 }
