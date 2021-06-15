@@ -1,7 +1,4 @@
-@import "_variables";
-
 /* Nav bar */
-
 .logo {
   font-family: "PT Sans", sans-serif;
   font-size: 38px;
@@ -15,6 +12,7 @@
 .navbar ul {
   display: flex;
 }
+
 .navbar a {
   padding: 10px;
   margin: 0 5px;
@@ -26,6 +24,7 @@
 .navbar a:hover {
   border-bottom: 2px black solid;
 }
+
 .container {
   margin: 0 auto;
   padding: 0 40px;

@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+.home button {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border: 0;
+}
+
 /*homepage */
 
 .home {
@@ -23,18 +35,7 @@
   font-family: "PT Sans", sans-serif;
   font-size: 32px;
   line-height: 1.2;
-}
-
-.home button {
-  width: 130px;
-  height: 42px;
-  border-radius: 20px;
-  background-color: black;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color: white;
-  border: 0;
+  letter-spacing: 0.4px;
 }
 
 .name {

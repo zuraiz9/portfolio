@@ -1,8 +1,20 @@
 @import "variables";
 
 .projects-container {
-  height: 200vh;
+  height: 100%;
   border: solid 2px blue;
+}
+
+.projects-container button {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2e3138;
+  border: 0;
 }
 
 .project1 {
@@ -29,13 +41,17 @@
   font-family: "PT Sans", sans-serif;
   line-height: 1.2;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 .project1type h2 {
   font-size: 30px;
 }
 .project1type p {
   font-size: 22px;
-  margin-top: 20px;
 }
 
 .projectpic {
@@ -59,13 +75,17 @@
   font-family: "PT Sans", sans-serif;
   line-height: 1.2;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 .project2type h2 {
   font-size: 30px;
 }
 .project2type p {
   font-size: 22px;
-  margin-top: 20px;
 }
 
 .project3 {
@@ -84,11 +104,15 @@
   font-family: "PT Sans", sans-serif;
   line-height: 1.2;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 .project3type h2 {
   font-size: 30px;
 }
 .project3type p {
   font-size: 22px;
-  margin-top: 20px;
 }

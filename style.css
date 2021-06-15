@@ -17,7 +17,7 @@
 .navbar a {
   padding: 10px;
   margin: 0 5px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 0.4px;
 }
@@ -33,7 +33,7 @@
 
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
 }
@@ -53,6 +53,18 @@ a {
   box-sizing: border-box;
 }
 
+.home button {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border: 0;
+}
+
 /*homepage */
 .home {
   height: 75vh;
@@ -69,18 +81,7 @@ a {
   font-family: "PT Sans", sans-serif;
   font-size: 32px;
   line-height: 1.2;
-}
-
-.home button {
-  width: 130px;
-  height: 42px;
-  border-radius: 20px;
-  background-color: black;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color: white;
-  border: 0;
+  letter-spacing: 0.4px;
 }
 
 .name {
@@ -116,6 +117,7 @@ a {
 .about p {
   font-size: 22px;
   margin-top: 20px;
+  letter-spacing: 0.4px;
 }
 
 .picture {
@@ -138,8 +140,20 @@ a {
 }
 
 .projects-container {
-  height: 200vh;
+  height: 100%;
   border: solid 2px blue;
+}
+
+.projects-container button {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2e3138;
+  border: 0;
 }
 
 .project1 {
@@ -166,6 +180,11 @@ a {
   font-family: "PT Sans", sans-serif;
   line-height: 1.2;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .project1type h2 {
@@ -174,7 +193,6 @@ a {
 
 .project1type p {
   font-size: 22px;
-  margin-top: 20px;
 }
 
 .projectpic {
@@ -198,6 +216,11 @@ a {
   font-family: "PT Sans", sans-serif;
   line-height: 1.2;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .project2type h2 {
@@ -206,7 +229,6 @@ a {
 
 .project2type p {
   font-size: 22px;
-  margin-top: 20px;
 }
 
 .project3 {
@@ -225,6 +247,11 @@ a {
   font-family: "PT Sans", sans-serif;
   line-height: 1.2;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .project3type h2 {
@@ -233,5 +260,47 @@ a {
 
 .project3type p {
   font-size: 22px;
-  margin-top: 20px;
+}
+
+.footer {
+  height: 70vh;
+  border: solid 2px blue;
+  background-color: #fdf5ec;
+  margin-top: 10%;
+}
+
+.contactt {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 50px;
+  margin-top: 5vh;
+}
+
+.footer button {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border: 0;
+}
+
+.btn-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 35%;
+}
+
+.btn-footer p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.4px;
 }
