@@ -1,0 +1,50 @@
+@import "_variables";
+
+/* Nav bar */
+
+.logo {
+  font-family: "PT Sans", sans-serif;
+  font-size: 38px;
+}
+
+.navbar {
+  background-color: white;
+  height: 80px;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar a {
+  padding: 10px;
+  margin: 0 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px black solid;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+

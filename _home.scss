@@ -1,0 +1,38 @@
+@import "_variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*homepage */
+
+.home {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 2px solid black;
+  padding: 50px;
+}
+
+.headline {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.home button {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border: 0;
+}

@@ -1,22 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: black;
-}
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
 /* Nav bar */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=PT+Sans&display=swap");
 .logo {
   font-family: "PT Sans", sans-serif;
   font-size: 38px;
@@ -30,6 +13,7 @@ a {
 .navbar ul {
   display: flex;
 }
+
 .navbar a {
   padding: 10px;
   margin: 0 5px;
@@ -41,6 +25,7 @@ a {
 .navbar a:hover {
   border-bottom: 2px black solid;
 }
+
 .container {
   margin: 0 auto;
   padding: 0 40px;
@@ -53,8 +38,22 @@ a {
   height: 100%;
 }
 
-/*homepage */
+ul {
+  list-style-type: none;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*homepage */
 .home {
   height: 75vh;
   display: flex;
@@ -85,11 +84,11 @@ a {
 }
 
 .name {
-  color: rgba(105, 55, 255, 1);
+  color: #6937ff;
 }
 
 .background {
   width: 100%;
   height: 120vh;
-  background-color: rgba(253, 245, 236, 1);
+  background-color: #fdf5ec;
 }
