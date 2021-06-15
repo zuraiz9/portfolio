@@ -97,27 +97,56 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 600px;
+  height: 75vh;
   border: 2px solid black;
-  
 }
 
 .about {
-  background-color: rgba(252, 172, 138, 1);
+  background-color: #fcac8a;
   width: 35%;
   padding: 30px;
   font-family: "PT Sans", sans-serif;
   line-height: 1.2;
 }
+
 .about h2 {
   font-size: 46px;
 }
+
 .about p {
   font-size: 22px;
   margin-top: 20px;
 }
 
 .picture {
-  background-color: rgba(97, 201, 168, 1);
+  background-color: #61c9a8;
   width: 35%;
+}
+
+.skills-container {
+  height: 75vh;
+  border: 2px solid black;
+}
+
+.skills {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 50px;
+  margin-top: 5vh;
+}
+
+.projects-container {
+  height: 75vh;
+  border: 2px solid black;
+}
+
+.projects {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 50px;
+  margin-top: 5vh;
 }

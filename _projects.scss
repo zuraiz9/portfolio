@@ -1,0 +1,15 @@
+@import "variables";
+
+.projects-container {
+  height: 75vh;
+  border: 2px solid black;
+}
+
+.projects {
+  font-family: "PT Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 50px;
+  margin-top: 5vh;
+}
