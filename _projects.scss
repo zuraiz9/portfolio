@@ -1,7 +1,7 @@
 @import "variables";
 
 .projects-container {
-  height: 150vh;
+  height: 200vh;
   border: solid 2px blue;
 }
 
@@ -64,6 +64,31 @@
   font-size: 30px;
 }
 .project2type p {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.project3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 40vh;
+  border: 2px solid black;
+  margin-top: 15vh;
+}
+
+.project3type {
+  background-color: #2e3138;
+  width: 30%;
+  padding: 30px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.2;
+  color: white;
+}
+.project3type h2 {
+  font-size: 30px;
+}
+.project3type p {
   font-size: 22px;
   margin-top: 20px;
 }
