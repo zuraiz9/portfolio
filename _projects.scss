@@ -1,15 +1,69 @@
 @import "variables";
 
 .projects-container {
-  height: 75vh;
+  height: 150vh;
+  border: solid 2px blue;
+}
+
+.project1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 40vh;
   border: 2px solid black;
 }
 
-.projects {
+.projectstitle {
   font-family: "PT Sans", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 1.2;
   padding: 50px;
   margin-top: 5vh;
+}
+
+.project1type {
+  background-color: #2e3138;
+  width: 30%;
+  padding: 30px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.2;
+  color: white;
+}
+.project1type h2 {
+  font-size: 30px;
+}
+.project1type p {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.projectpic {
+  background-color: #dddfe3;
+  width: 30%;
+}
+
+.project2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 40vh;
+  border: 2px solid black;
+  margin-top: 15vh;
+}
+
+.project2type {
+  background-color: #2e3138;
+  width: 30%;
+  padding: 30px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.2;
+  color: white;
+}
+.project2type h2 {
+  font-size: 30px;
+}
+.project2type p {
+  font-size: 22px;
+  margin-top: 20px;
 }
