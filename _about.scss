@@ -6,16 +6,12 @@
   flex-wrap: wrap;
   height: 75vh;
   border: 2px solid black;
-  width: 70%;
-  margin: 0 auto;
-  position: absolute;
-  left: 20px;
-  top: 100px;
+  background: linear-gradient(rgba(253, 245, 236, 1) 45%, white 45%);
 }
 
 .about {
   background-color: rgba(252, 172, 138, 1);
-  width: 50%;
+  width: 35%;
   padding: 30px;
   @include prm-font;
 
@@ -31,5 +27,5 @@
 
 .picture {
   background-color: rgba(97, 201, 168, 1);
-  width: 50%;
+  width: 35%;
 }
