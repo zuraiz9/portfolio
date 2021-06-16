@@ -8,6 +8,9 @@
   button {
     @include btn-1;
   }
+  button:hover {
+    @include btn-hover;
+  }
 }
 
 .contactt {

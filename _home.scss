@@ -8,10 +8,6 @@
 
 /*homepage */
 
-.home button {
-  @include btn-1;
-}
-
 .home {
   height: 75vh;
   display: flex;
@@ -21,6 +17,13 @@
   align-items: flex-start;
   border: 2px solid black;
   padding: 50px;
+  button {
+    @include btn-1;
+  }
+
+  button:hover {
+    @include btn-hover;
+  }
 }
 
 .headline {

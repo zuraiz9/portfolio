@@ -54,6 +54,16 @@ a {
 }
 
 /*homepage */
+.home {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 2px solid black;
+  padding: 50px;
+}
 .home button {
   width: 130px;
   height: 42px;
@@ -66,17 +76,10 @@ a {
   font-size: 16px;
   color: white;
   border: 0;
+  cursor: pointer;
 }
-
-.home {
-  height: 75vh;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  border: 2px solid black;
-  padding: 50px;
+.home button:hover {
+  transform: scale(0.96);
 }
 
 .headline {
@@ -160,6 +163,10 @@ a {
   font-size: 16px;
   color: #2e3138;
   border: 0;
+  cursor: pointer;
+}
+.projects-container button:hover {
+  transform: scale(0.96);
 }
 
 .projectstitle {
@@ -242,6 +249,10 @@ a {
   font-size: 16px;
   color: white;
   border: 0;
+  cursor: pointer;
+}
+.footer button:hover {
+  transform: scale(0.96);
 }
 
 .contactt {

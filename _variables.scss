@@ -16,6 +16,7 @@ $prm-font: "PT Sans", sans-serif;
   font-size: 16px;
   color: white;
   border: 0;
+  cursor: pointer;
 }
 
 @mixin btn-2 {
@@ -27,6 +28,11 @@ $prm-font: "PT Sans", sans-serif;
   font-size: 16px;
   color: #2e3138;
   border: 0;
+  cursor: pointer;
+}
+
+@mixin btn-hover {
+  transform: scale(0.96);
 }
 
 @mixin section-heading {

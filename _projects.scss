@@ -6,6 +6,9 @@
   button {
     @include btn-2;
   }
+  button:hover {
+    @include btn-hover;
+  }
 }
 
 .projectstitle {
