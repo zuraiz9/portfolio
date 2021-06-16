@@ -1,1 +1,37 @@
 $prm-font: "PT Sans", sans-serif;
+
+@mixin prm-font {
+  font-family: $prm-font;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@mixin btn-1 {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: black;
+  @include prm-font;
+  font-size: 16px;
+  color: white;
+  border: 0;
+}
+
+@mixin btn-2 {
+  width: 130px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: white;
+  @include prm-font;
+  font-size: 16px;
+  color: #2e3138;
+  border: 0;
+}
+
+@mixin section-heading {
+  @include prm-font;
+  font-size: 36px;
+  padding: 50px;
+  margin-top: 5vh;
+}

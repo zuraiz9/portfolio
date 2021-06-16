@@ -4,26 +4,29 @@
   background-color: #fdf5ec;
   margin-top: 10%;
 }
-
-.contactt {
-  font-family: "PT Sans", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.2;
-  padding: 50px;
-  margin-top: 5vh;
-}
-
 .footer button {
   width: 130px;
   height: 42px;
   border-radius: 20px;
   background-color: black;
   font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.4px;
   font-weight: 700;
+  line-height: 1.2;
   font-size: 16px;
   color: white;
   border: 0;
+}
+
+.contactt {
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 34px;
+  padding: 50px;
+  margin-top: 5vh;
+  border: solid black 2px;
 }
 
 .btn-footer {
@@ -32,11 +35,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 35%;
+  height: 30%;
+  border: 2px solid black;
+  margin: 10vh 0;
 }
-
 .btn-footer p {
   font-family: "PT Sans", sans-serif;
-  font-size: 22px;
   letter-spacing: 0.4px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 22px;
+  font-weight: 300;
 }

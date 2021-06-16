@@ -6,10 +6,5 @@
 }
 
 .skills {
-  font-family: "PT Sans", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.2;
-  padding: 50px;
-  margin-top: 5vh;
+  @include section-heading;
 }

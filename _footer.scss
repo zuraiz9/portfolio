@@ -5,27 +5,14 @@
   border: solid 2px blue;
   background-color: rgba(253, 245, 236, 1);
   margin-top: 10%;
+  button {
+    @include btn-1;
+  }
 }
 
 .contactt {
-  font-family: "PT Sans", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.2;
-  padding: 50px;
-  margin-top: 5vh;
-}
-
-.footer button {
-  width: 130px;
-  height: 42px;
-  border-radius: 20px;
-  background-color: black;
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color: white;
-  border: 0;
+  @include section-heading;
+  border: solid black 2px;
 }
 
 .btn-footer {
@@ -34,11 +21,13 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 35%;
-}
+  height: 30%;
+  border: 2px solid black;
+  margin: 10vh 0;
 
-.btn-footer p {
-  font-family: "PT Sans", sans-serif;
-  font-size: 22px;
-  letter-spacing: 0.4px;
+  p {
+    @include prm-font;
+    font-size: 22px;
+    font-weight: 300;
+  }
 }

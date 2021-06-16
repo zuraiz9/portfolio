@@ -5,9 +5,10 @@
 
 .skills {
   font-family: "PT Sans", sans-serif;
-  font-size: 32px;
+  letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
+  font-size: 32px;
   padding: 50px;
   margin-top: 5vh;
 }

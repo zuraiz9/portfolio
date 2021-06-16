@@ -2,20 +2,33 @@
   height: 100%;
   border: solid 2px blue;
 }
-
 .projects-container button {
   width: 130px;
   height: 42px;
   border-radius: 20px;
   background-color: white;
   font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.4px;
   font-weight: 700;
+  line-height: 1.2;
   font-size: 16px;
   color: #2e3138;
   border: 0;
 }
 
-.project1 {
+.projectstitle {
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 32px;
+  padding: 50px;
+  margin-top: 5vh;
+}
+
+.project1,
+.project2,
+.project3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -23,20 +36,15 @@
   border: 2px solid black;
 }
 
-.projectstitle {
-  font-family: "PT Sans", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.2;
-  padding: 50px;
-  margin-top: 5vh;
-}
-
-.project1type {
+.project1type,
+.project2type,
+.project3type {
   background-color: #2e3138;
   width: 30%;
   padding: 30px;
   font-family: "PT Sans", sans-serif;
+  letter-spacing: 0.4px;
+  font-weight: 700;
   line-height: 1.2;
   color: white;
   display: flex;
@@ -45,13 +53,16 @@
   justify-content: space-between;
   text-align: center;
 }
-
-.project1type h2 {
+.project1type h2,
+.project2type h2,
+.project3type h2 {
   font-size: 30px;
 }
-
-.project1type p {
+.project1type p,
+.project2type p,
+.project3type p {
   font-size: 22px;
+  font-weight: 400;
 }
 
 .projectpic {
@@ -60,63 +71,9 @@
 }
 
 .project2 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 40vh;
-  border: 2px solid black;
   margin-top: 15vh;
-}
-
-.project2type {
-  background-color: #2e3138;
-  width: 30%;
-  padding: 30px;
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.2;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.project2type h2 {
-  font-size: 30px;
-}
-
-.project2type p {
-  font-size: 22px;
 }
 
 .project3 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 40vh;
-  border: 2px solid black;
   margin-top: 15vh;
-}
-
-.project3type {
-  background-color: #2e3138;
-  width: 30%;
-  padding: 30px;
-  font-family: "PT Sans", sans-serif;
-  line-height: 1.2;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.project3type h2 {
-  font-size: 30px;
-}
-
-.project3type p {
-  font-size: 22px;
 }
