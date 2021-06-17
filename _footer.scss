@@ -13,12 +13,12 @@
   }
 }
 
-.contactt {
+.footer__text {
   @include section-heading;
   border: solid black 2px;
 }
 
-.btn-footer {
+.btn__footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

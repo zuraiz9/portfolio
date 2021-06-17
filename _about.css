@@ -7,7 +7,7 @@
   background: linear-gradient(#fdf5ec 45%, white 45%);
 }
 
-.about {
+.about-container__text {
   background-color: #fcac8a;
   width: 35%;
   padding: 30px;
@@ -16,16 +16,16 @@
   font-weight: 700;
   line-height: 1.2;
 }
-.about h2 {
+.about-container__text h2 {
   font-size: 40px;
 }
-.about p {
+.about-container__text p {
   font-size: 22px;
   margin-top: 20px;
   font-weight: 200;
 }
 
-.picture {
+.about-container__picture {
   background-color: #61c9a8;
   width: 35%;
 }

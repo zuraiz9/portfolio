@@ -11,13 +11,13 @@
   }
 }
 
-.projectstitle {
+.projects-container__title {
   @include section-heading;
 }
 
-.project1,
-.project2,
-.project3 {
+.project-1,
+.project-2,
+.project-3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -25,9 +25,9 @@
   border: 2px solid black;
 }
 
-.project1type,
-.project2type,
-.project3type {
+.project-1__text,
+.project-2__text,
+.project-3__text {
   background-color: #2e3138;
   width: 30%;
   padding: 30px;
@@ -52,10 +52,10 @@
   width: 30%;
 }
 
-.project2 {
+.project-2 {
   margin-top: 15vh;
 }
 
-.project3 {
+.project-3 {
   margin-top: 15vh;
 }

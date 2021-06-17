@@ -1,21 +1,21 @@
 /* Nav bar */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=PT+Sans&display=swap");
-.logo {
+.nav__logo {
   font-family: "PT Sans", sans-serif;
   font-size: 38px;
 }
 
-.navbar {
+.nav {
   background-color: white;
   height: 80px;
   width: 100%;
 }
 
-.navbar ul {
+.nav ul {
   display: flex;
 }
 
-.navbar a {
+.nav a {
   padding: 10px;
   margin: 0 5px;
   font-family: "PT Sans", sans-serif;
@@ -23,16 +23,16 @@
   letter-spacing: 0.4px;
 }
 
-.navbar a:hover {
+.nav a:hover {
   border-bottom: 2px black solid;
 }
 
-.container {
+.nav__container {
   margin: 0 auto;
   padding: 0 40px;
 }
 
-.flex {
+.--flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,7 +83,7 @@ a {
   transform: scale(0.96);
 }
 
-.headline {
+.home__headline {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
@@ -92,7 +92,7 @@ a {
   border: solid 2px black;
 }
 
-.name {
+.headline__name--color {
   color: #6937ff;
 }
 
@@ -102,7 +102,7 @@ a {
   background-color: #fdf5ec;
 }
 
-.icons {
+.home__icons {
   font-size: 30px;
   padding: 10px;
 }
@@ -116,7 +116,7 @@ a {
   background: linear-gradient(#fdf5ec 45%, white 45%);
 }
 
-.about {
+.about-container__text {
   background-color: #fcac8a;
   width: 35%;
   padding: 30px;
@@ -125,26 +125,26 @@ a {
   font-weight: 700;
   line-height: 1.2;
 }
-.about h2 {
+.about-container__text h2 {
   font-size: 40px;
 }
-.about p {
+.about-container__text p {
   font-size: 22px;
   margin-top: 20px;
   font-weight: 200;
 }
 
-.picture {
+.about-container__picture {
   background-color: #61c9a8;
   width: 35%;
 }
 
 .skills-container {
-  height: 100vh;
+  height: 120vh;
   border: 2px solid black;
 }
 
-.skills {
+.skills-container__title {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
@@ -176,7 +176,7 @@ a {
   transform: scale(0.96);
 }
 
-.projectstitle {
+.projects-container__title {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
@@ -186,9 +186,9 @@ a {
   margin-top: 5vh;
 }
 
-.project1,
-.project2,
-.project3 {
+.project-1,
+.project-2,
+.project-3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -196,9 +196,9 @@ a {
   border: 2px solid black;
 }
 
-.project1type,
-.project2type,
-.project3type {
+.project-1__text,
+.project-2__text,
+.project-3__text {
   background-color: #2e3138;
   width: 30%;
   padding: 30px;
@@ -213,14 +213,14 @@ a {
   justify-content: space-between;
   text-align: center;
 }
-.project1type h2,
-.project2type h2,
-.project3type h2 {
+.project-1__text h2,
+.project-2__text h2,
+.project-3__text h2 {
   font-size: 26px;
 }
-.project1type p,
-.project2type p,
-.project3type p {
+.project-1__text p,
+.project-2__text p,
+.project-3__text p {
   font-size: 18px;
   font-weight: 400;
 }
@@ -230,11 +230,11 @@ a {
   width: 30%;
 }
 
-.project2 {
+.project-2 {
   margin-top: 15vh;
 }
 
-.project3 {
+.project-3 {
   margin-top: 15vh;
 }
 
@@ -262,7 +262,7 @@ a {
   transform: scale(0.96);
 }
 
-.contactt {
+.footer__text {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
@@ -273,7 +273,7 @@ a {
   border: solid black 2px;
 }
 
-.btn-footer {
+.btn__footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -283,7 +283,7 @@ a {
   border: 2px solid black;
   margin: 10vh 0;
 }
-.btn-footer p {
+.btn__footer p {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
@@ -294,34 +294,34 @@ a {
 
 /* Tablets and under */
 @media (max-width: 800px) {
+  .home__headline {
+    font-size: 32px;
+  }
+
   .about-container {
     flex-direction: column-reverse;
     align-items: center;
     height: 85vh;
   }
 
-  .about {
+  .about-container__text {
     width: 80%;
     height: 50%;
   }
 
-  .picture {
+  .about-container__picture {
     width: 80%;
     height: 50%;
   }
 
-  .project1type,
-.project2type,
-.project3type {
+  .project-1__text,
+.project-2__text,
+.project-3__text {
     width: 40%;
   }
 
   .projectpic {
     width: 40%;
-  }
-
-  .headline {
-    font-size: 32px;
   }
 }
 /*projects flex-direction*/
@@ -330,17 +330,17 @@ a {
     height: 100vh;
   }
 
-  .project1,
-.project2,
-.project3 {
+  .project-1,
+.project-2,
+.project-3 {
     flex-direction: column-reverse;
     align-items: center;
     height: 70vh;
   }
 
-  .project1type,
-.project2type,
-.project3type {
+  .project-1__text,
+.project-2__text,
+.project-3__text {
     height: 50%;
     width: 80%;
   }
@@ -350,34 +350,34 @@ a {
     width: 80%;
   }
 
-  .headline {
+  .home__headline {
     font-size: 26px;
   }
 }
 @media (max-width: 550px) {
-  .headline {
+  .home__headline {
     font-size: 22px;
   }
 
-  .about h2 {
+  .about-container__text h2 {
     font-size: 32px;
   }
-  .about p {
+  .about-container__text p {
     font-size: 20px;
   }
 
-  .navbar {
+  .nav {
     height: 130px;
   }
 
-  .navbar .flex {
+  .nav .--flex {
     flex-direction: column;
     justify-content: space-evenly;
   }
 }
 /*mobile*/
 @media (max-width: 450px) {
-  .navbar a {
+  .nav a {
     font-size: 14px;
     padding: 5px;
   }

@@ -1,14 +1,14 @@
 .skills-container {
-  height: 100vh;
+  height: 120vh;
   border: 2px solid black;
 }
 
-.skills {
+.skills-container__title {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 36px;
+  font-size: 34px;
   padding: 50px;
   margin-top: 5vh;
 }

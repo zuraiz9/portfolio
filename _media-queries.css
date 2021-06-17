@@ -1,33 +1,33 @@
 /* Tablets and under */
 @media (max-width: 800px) {
+  .home__headline {
+    font-size: 32px;
+  }
+
   .about-container {
     flex-direction: column-reverse;
     align-items: center;
     height: 85vh;
   }
 
-  .about {
+  .about-container__text {
     width: 80%;
     height: 50%;
   }
 
-  .picture {
+  .about-container__picture {
     width: 80%;
     height: 50%;
   }
 
-  .project1type,
-.project2type,
-.project3type {
+  .project-1__text,
+.project-2__text,
+.project-3__text {
     width: 40%;
   }
 
   .projectpic {
     width: 40%;
-  }
-
-  .headline {
-    font-size: 32px;
   }
 }
 /*projects flex-direction*/
@@ -36,17 +36,17 @@
     height: 100vh;
   }
 
-  .project1,
-.project2,
-.project3 {
+  .project-1,
+.project-2,
+.project-3 {
     flex-direction: column-reverse;
     align-items: center;
     height: 70vh;
   }
 
-  .project1type,
-.project2type,
-.project3type {
+  .project-1__text,
+.project-2__text,
+.project-3__text {
     height: 50%;
     width: 80%;
   }
@@ -56,34 +56,34 @@
     width: 80%;
   }
 
-  .headline {
+  .home__headline {
     font-size: 26px;
   }
 }
 @media (max-width: 550px) {
-  .headline {
+  .home__headline {
     font-size: 22px;
   }
 
-  .about h2 {
+  .about-container__text h2 {
     font-size: 32px;
   }
-  .about p {
+  .about-container__text p {
     font-size: 20px;
   }
 
-  .navbar {
+  .nav {
     height: 130px;
   }
 
-  .navbar .flex {
+  .nav .--flex {
     flex-direction: column;
     justify-content: space-evenly;
   }
 }
 /*mobile*/
 @media (max-width: 450px) {
-  .navbar a {
+  .nav a {
     font-size: 14px;
     padding: 5px;
   }

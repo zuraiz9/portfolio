@@ -22,7 +22,7 @@
   transform: scale(0.96);
 }
 
-.contactt {
+.footer__text {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
@@ -33,7 +33,7 @@
   border: solid black 2px;
 }
 
-.btn-footer {
+.btn__footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -43,7 +43,7 @@
   border: 2px solid black;
   margin: 10vh 0;
 }
-.btn-footer p {
+.btn__footer p {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;

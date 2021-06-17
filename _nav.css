@@ -1,20 +1,20 @@
 /* Nav bar */
-.logo {
+.nav__logo {
   font-family: "PT Sans", sans-serif;
   font-size: 38px;
 }
 
-.navbar {
+.nav {
   background-color: white;
   height: 80px;
   width: 100%;
 }
 
-.navbar ul {
+.nav ul {
   display: flex;
 }
 
-.navbar a {
+.nav a {
   padding: 10px;
   margin: 0 5px;
   font-family: "PT Sans", sans-serif;
@@ -22,16 +22,16 @@
   letter-spacing: 0.4px;
 }
 
-.navbar a:hover {
+.nav a:hover {
   border-bottom: 2px black solid;
 }
 
-.container {
+.nav__container {
   margin: 0 auto;
   padding: 0 40px;
 }
 
-.flex {
+.--flex {
   display: flex;
   justify-content: space-between;
   align-items: center;

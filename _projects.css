@@ -20,19 +20,19 @@
   transform: scale(0.96);
 }
 
-.projectstitle {
+.projects-container__title {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 36px;
+  font-size: 34px;
   padding: 50px;
   margin-top: 5vh;
 }
 
-.project1,
-.project2,
-.project3 {
+.project-1,
+.project-2,
+.project-3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -40,9 +40,9 @@
   border: 2px solid black;
 }
 
-.project1type,
-.project2type,
-.project3type {
+.project-1__text,
+.project-2__text,
+.project-3__text {
   background-color: #2e3138;
   width: 30%;
   padding: 30px;
@@ -57,14 +57,14 @@
   justify-content: space-between;
   text-align: center;
 }
-.project1type h2,
-.project2type h2,
-.project3type h2 {
+.project-1__text h2,
+.project-2__text h2,
+.project-3__text h2 {
   font-size: 26px;
 }
-.project1type p,
-.project2type p,
-.project3type p {
+.project-1__text p,
+.project-2__text p,
+.project-3__text p {
   font-size: 18px;
   font-weight: 400;
 }
@@ -74,10 +74,10 @@
   width: 30%;
 }
 
-.project2 {
+.project-2 {
   margin-top: 15vh;
 }
 
-.project3 {
+.project-3 {
   margin-top: 15vh;
 }

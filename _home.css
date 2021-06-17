@@ -33,7 +33,7 @@
   transform: scale(0.96);
 }
 
-.headline {
+.home__headline {
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
@@ -42,7 +42,7 @@
   border: solid 2px black;
 }
 
-.name {
+.headline__name--color {
   color: #6937ff;
 }
 
@@ -52,7 +52,7 @@
   background-color: #fdf5ec;
 }
 
-.icons {
+.home__icons {
   font-size: 30px;
   padding: 10px;
 }
