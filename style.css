@@ -102,6 +102,11 @@ a {
   background-color: #fdf5ec;
 }
 
+.icons {
+  font-size: 30px;
+  padding: 10px;
+}
+
 .about-container {
   display: flex;
   justify-content: center;
