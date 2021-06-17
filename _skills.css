@@ -1,5 +1,5 @@
 .skills-container {
-  height: 90vh;
+  height: 100vh;
   border: 2px solid black;
 }
 
@@ -8,7 +8,7 @@
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 32px;
+  font-size: 36px;
   padding: 50px;
   margin-top: 5vh;
 }

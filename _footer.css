@@ -1,8 +1,8 @@
 .footer {
-  height: 70vh;
+  height: 100%;
   border: solid 2px blue;
   background-color: #fdf5ec;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .footer button {
   width: 130px;
@@ -27,7 +27,7 @@
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 36px;
+  font-size: 34px;
   padding: 50px;
   margin-top: 5vh;
   border: solid black 2px;
@@ -39,7 +39,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 30%;
+  height: 20vh;
   border: 2px solid black;
   margin: 10vh 0;
 }
@@ -48,6 +48,6 @@
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
 }

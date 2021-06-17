@@ -1,5 +1,5 @@
 .projects-container {
-  height: 100%;
+  height: auto;
   border: solid 2px blue;
 }
 .projects-container button {
@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 40vh;
+  height: 45vh;
   border: 2px solid black;
 }
 
@@ -60,12 +60,12 @@
 .project1type h2,
 .project2type h2,
 .project3type h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 .project1type p,
 .project2type p,
 .project3type p {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
 }
 

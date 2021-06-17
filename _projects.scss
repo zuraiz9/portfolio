@@ -1,7 +1,7 @@
 @import "variables";
 
 .projects-container {
-  height: 100%;
+  height: auto;
   border: solid 2px blue;
   button {
     @include btn-2;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 40vh;
+  height: 45vh;
   border: 2px solid black;
 }
 
@@ -39,10 +39,10 @@
   justify-content: space-between;
   text-align: center;
   h2 {
-    font-size: 30px;
+    font-size: 26px;
   }
   p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
   }
 }

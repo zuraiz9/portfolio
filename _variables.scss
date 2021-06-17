@@ -37,7 +37,7 @@ $prm-font: "PT Sans", sans-serif;
 
 @mixin section-heading {
   @include prm-font;
-  font-size: 36px;
+  font-size: 34px;
   padding: 50px;
   margin-top: 5vh;
 }

@@ -1,10 +1,10 @@
 @import "_variables";
 
 .footer {
-  height: 70vh;
+  height: 100%;
   border: solid 2px blue;
   background-color: rgba(253, 245, 236, 1);
-  margin-top: 10%;
+  margin-top: 20%;
   button {
     @include btn-1;
   }
@@ -24,13 +24,13 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 30%;
+  height: 20vh;
   border: 2px solid black;
   margin: 10vh 0;
 
   p {
     @include prm-font;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
   }
 }
