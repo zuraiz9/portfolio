@@ -2,7 +2,6 @@
 
 .projects-container {
   height: auto;
-  border: solid 2px blue;
   button {
     @include btn-2;
   }
@@ -22,7 +21,6 @@
   justify-content: center;
   flex-wrap: wrap;
   height: 45vh;
-  border: 2px solid black;
 }
 
 .project-1__text,
@@ -52,10 +50,7 @@
   width: 30%;
 }
 
-.project-2 {
-  margin-top: 15vh;
-}
-
+.project-2,
 .project-3 {
   margin-top: 15vh;
 }

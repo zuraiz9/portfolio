@@ -15,10 +15,14 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
-  border: 2px solid black;
+  
   padding: 5vw;
   button {
     @include btn-1;
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
 
   button:hover {
@@ -29,7 +33,7 @@
 .home__headline {
   @include prm-font;
   font-size: 36px;
-  border: solid 2px black;
+  
 }
 
 .headline__name--color {

@@ -30,7 +30,7 @@
     width: 40%;
   }
 }
-/*projects flex-direction*/
+/*project section flex & font size*/
 @media (max-width: 685px) {
   .about-container {
     height: 100vh;

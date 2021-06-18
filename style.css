@@ -7,20 +7,21 @@
 
 .nav {
   background-color: white;
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
-
 .nav ul {
   display: flex;
+  list-style-type: none;
 }
-
 .nav a {
   padding: 10px;
   margin: 0 5px;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 0.4px;
+  text-decoration: none;
+  color: black;
 }
 
 .nav a:hover {
@@ -39,15 +40,6 @@
   height: 100%;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +54,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
-  border: 2px solid black;
   padding: 5vw;
 }
 .home button {
@@ -79,6 +70,10 @@ a {
   border: 0;
   cursor: pointer;
 }
+.home button a {
+  text-decoration: none;
+  color: white;
+}
 .home button:hover {
   transform: scale(0.96);
 }
@@ -89,7 +84,6 @@ a {
   font-weight: 700;
   line-height: 1.2;
   font-size: 36px;
-  border: solid 2px black;
 }
 
 .headline__name--color {
@@ -112,7 +106,6 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   height: 75vh;
-  border: 2px solid black;
   background: linear-gradient(#fdf5ec 45%, white 45%);
 }
 
@@ -141,7 +134,7 @@ a {
 
 .skills-container {
   height: 120vh;
-  border: 2px solid black;
+  margin-top: 25vh;
 }
 
 .skills-container__title {
@@ -156,7 +149,6 @@ a {
 
 .projects-container {
   height: auto;
-  border: solid 2px blue;
 }
 .projects-container button {
   width: 130px;
@@ -193,7 +185,6 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   height: 45vh;
-  border: 2px solid black;
 }
 
 .project-1__text,
@@ -230,17 +221,13 @@ a {
   width: 30%;
 }
 
-.project-2 {
-  margin-top: 15vh;
-}
-
+.project-2,
 .project-3 {
   margin-top: 15vh;
 }
 
 .footer {
   height: 100%;
-  border: solid 2px blue;
   background-color: #fdf5ec;
   margin-top: 20%;
 }
@@ -270,7 +257,6 @@ a {
   font-size: 34px;
   padding: 50px;
   margin-top: 5vh;
-  border: solid black 2px;
 }
 
 .btn__footer {
@@ -280,7 +266,6 @@ a {
   justify-content: space-around;
   align-items: center;
   height: 20vh;
-  border: 2px solid black;
   margin: 10vh 0;
 }
 .btn__footer p {
@@ -324,7 +309,7 @@ a {
     width: 40%;
   }
 }
-/*projects flex-direction*/
+/*project section flex & font size*/
 @media (max-width: 685px) {
   .about-container {
     height: 100vh;

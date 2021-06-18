@@ -3,7 +3,6 @@
   justify-content: center;
   flex-wrap: wrap;
   height: 75vh;
-  border: 2px solid black;
   background: linear-gradient(#fdf5ec 45%, white 45%);
 }
 
