@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*homepage */
 
 .home {
@@ -33,7 +37,6 @@
 .home__headline {
   @include prm-font;
   font-size: 36px;
-  
 }
 
 .headline__name--color {
@@ -49,4 +52,8 @@
 .home__icons {
   font-size: 30px;
   padding: 10px;
+}
+
+a {
+  color: black;
 }

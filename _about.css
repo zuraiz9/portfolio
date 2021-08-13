@@ -8,7 +8,7 @@
 
 .about-container__text {
   background-color: #fcac8a;
-  width: 35%;
+  width: 40%;
   padding: 30px;
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
@@ -26,5 +26,5 @@
 
 .about-container__picture {
   background-color: #61c9a8;
-  width: 35%;
+  width: 40%;
 }

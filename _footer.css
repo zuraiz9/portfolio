@@ -1,5 +1,6 @@
 .footer {
   height: 100%;
+  border: solid 0.5px #fdf5ec;
   background-color: #fdf5ec;
   margin-top: 20%;
 }
