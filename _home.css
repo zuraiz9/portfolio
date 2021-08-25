@@ -10,13 +10,12 @@ html {
 
 /*homepage */
 .home {
-  height: 80%;
+  height: 85%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 5vw;
+  padding: 4vw;
 }
 .home button {
   width: 130px;

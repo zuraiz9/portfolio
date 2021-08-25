@@ -3,7 +3,7 @@
 .projects-container {
   height: auto;
   button {
-    @include btn-2;
+    @include btn-1;
   }
   button:hover {
     @include btn-hover;
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 60vh;
+  height: 70vh;
 }
 
 .project-1__text,
@@ -33,16 +33,16 @@
 .project-4__text,
 .project-5__text,
 .project-6__text {
-  background-color: #2e3138;
+  //background-color: #2e3138;
   width: 30%;
-  padding: 30px;
+  padding: 5vw;
   @include prm-font;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   justify-content: space-between;
-  text-align: center;
+  // text-align: center;
   h2 {
     font-size: 30px;
   }
@@ -53,7 +53,8 @@
 }
 
 .projectpic {
-  background-color: #dddfe3;
+  border-radius: 10px;
+  background-color: black;
   height: 100%;
   width: 30%;
 
@@ -67,6 +68,7 @@
   max-height: 100%;
   width: 80%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .game {
@@ -74,6 +76,7 @@
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .punkapi {
@@ -81,6 +84,7 @@
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .morseCode {
@@ -88,6 +92,7 @@
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .project-2,
@@ -98,6 +103,11 @@
   margin-top: 20vh;
 }
 
-.fa-rocket {
-  font-size: 40px;
+.fas {
+  font-size: 28px;
+}
+
+.projecticons {
+  display: flex;
+  justify-content: space-between;
 }

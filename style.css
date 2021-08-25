@@ -52,13 +52,13 @@ html {
 
 /*homepage */
 .home {
-  height: 80%;
+  height: 85%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 5vw;
+  border: solid black 2px;
+  padding: 4vw;
 }
 .home button {
   width: 130px;
@@ -118,6 +118,8 @@ a {
 }
 
 .about-container__text {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   background-color: #fcac8a;
   width: 35%;
   padding: 30px;
@@ -127,15 +129,17 @@ a {
   line-height: 1.2;
 }
 .about-container__text h2 {
-  font-size: 40px;
+  font-size: 2em;
 }
 .about-container__text p {
-  font-size: 18px;
+  font-size: 1em;
   margin-top: 20px;
   font-weight: 200;
 }
 
 .about-container__picture {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: #75cfb8;
   width: 35%;
 }
@@ -145,11 +149,12 @@ a {
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-bottom-right-radius: 10px;
 }
 
 .skills-container {
   height: 80vh;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 .skills-container__title {
@@ -157,7 +162,7 @@ a {
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 34px;
+  font-size: 28px;
   padding: 50px;
   margin-top: 5vh;
   text-align: center;
@@ -177,6 +182,10 @@ a {
   flex-direction: column;
   justify-content: center;
   border-radius: 5px;
+}
+
+#square:hover {
+  transform: scale(0.96);
 }
 
 .skillsFlex {
@@ -271,13 +280,13 @@ a {
   width: 130px;
   height: 42px;
   border-radius: 20px;
-  background-color: white;
+  background-color: black;
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
   font-size: 16px;
-  color: #2e3138;
+  color: white;
   border: 0;
   cursor: pointer;
 }
@@ -290,7 +299,7 @@ a {
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 34px;
+  font-size: 28px;
   padding: 50px;
   margin-top: 5vh;
   text-align: center;
@@ -305,7 +314,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 60vh;
+  height: 70vh;
 }
 
 .project-1__text,
@@ -314,19 +323,16 @@ a {
 .project-4__text,
 .project-5__text,
 .project-6__text {
-  background-color: #2e3138;
   width: 30%;
-  padding: 30px;
+  padding: 5vw;
   font-family: "PT Sans", sans-serif;
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  text-align: center;
 }
 .project-1__text h2,
 .project-2__text h2,
@@ -347,7 +353,8 @@ a {
 }
 
 .projectpic {
-  background-color: #dddfe3;
+  border-radius: 10px;
+  background-color: black;
   height: 100%;
   width: 30%;
   display: flex;
@@ -360,6 +367,7 @@ a {
   max-height: 100%;
   width: 80%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .game {
@@ -367,6 +375,7 @@ a {
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .punkapi {
@@ -374,6 +383,7 @@ a {
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .morseCode {
@@ -381,6 +391,7 @@ a {
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .project-2,
@@ -391,8 +402,13 @@ a {
   margin-top: 20vh;
 }
 
-.fa-rocket {
-  font-size: 40px;
+.fas {
+  font-size: 28px;
+}
+
+.projecticons {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
@@ -424,7 +440,7 @@ a {
   letter-spacing: 0.4px;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 34px;
+  font-size: 28px;
   padding: 50px;
   margin-top: 5vh;
 }
@@ -454,7 +470,7 @@ hr {
 /* Tablets and under */
 @media (max-width: 800px) {
   .home__headline {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .about-container {

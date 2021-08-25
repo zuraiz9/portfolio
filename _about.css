@@ -7,6 +7,8 @@
 }
 
 .about-container__text {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   background-color: #fcac8a;
   width: 35%;
   padding: 30px;
@@ -16,15 +18,17 @@
   line-height: 1.2;
 }
 .about-container__text h2 {
-  font-size: 40px;
+  font-size: 2em;
 }
 .about-container__text p {
-  font-size: 18px;
+  font-size: 1em;
   margin-top: 20px;
   font-weight: 200;
 }
 
 .about-container__picture {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: #75cfb8;
   width: 35%;
 }
@@ -34,4 +38,5 @@
   max-height: 100%;
   width: 100%;
   height: 100%;
+  border-bottom-right-radius: 10px;
 }
