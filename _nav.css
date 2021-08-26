@@ -1,7 +1,9 @@
 /* Nav bar */
 .nav__logo {
-  font-family: "PT Sans", sans-serif;
-  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-weight: 300;
 }
 
 .nav {
@@ -16,9 +18,10 @@
 .nav a {
   padding: 10px;
   margin: 0 5px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 0.4px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.8px;
   text-decoration: none;
   color: black;
 }

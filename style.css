@@ -1,8 +1,10 @@
 /* Nav bar */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=PT+Sans&display=swap");
 .nav__logo {
-  font-family: "PT Sans", sans-serif;
-  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-weight: 300;
 }
 
 .nav {
@@ -17,9 +19,10 @@
 .nav a {
   padding: 10px;
   margin: 0 5px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 0.4px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.8px;
   text-decoration: none;
   color: black;
 }
@@ -52,24 +55,22 @@ html {
 
 /*homepage */
 .home {
-  height: 85%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  border: solid black 2px;
-  padding: 4vw;
+  padding: 5vw;
 }
 .home button {
   width: 130px;
-  height: 42px;
+  height: 40px;
   border-radius: 20px;
   background-color: black;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
   color: white;
   border: 0;
   cursor: pointer;
@@ -83,11 +84,9 @@ html {
 }
 
 .home__headline {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5vw;
+  font-weight: 300;
 }
 
 .headline__name--color {
@@ -101,7 +100,7 @@ html {
 }
 
 .home__icons {
-  font-size: 30px;
+  font-size: 28px;
   padding: 10px;
 }
 
@@ -113,7 +112,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 70vh;
+  height: 35vw;
   background: linear-gradient(#fdf5ec 45%, white 45%);
 }
 
@@ -122,19 +121,17 @@ a {
   border-bottom-left-radius: 10px;
   background-color: #fcac8a;
   width: 35%;
+  max-height: 100%;
   padding: 30px;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: "Raleway", sans-serif;
 }
 .about-container__text h2 {
-  font-size: 2em;
+  font-size: 2vw;
 }
 .about-container__text p {
-  font-size: 1em;
+  font-size: 1.2vw;
   margin-top: 20px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .about-container__picture {
@@ -142,6 +139,7 @@ a {
   border-bottom-right-radius: 10px;
   background-color: #75cfb8;
   width: 35%;
+  max-height: 100%;
 }
 
 .profilepic {
@@ -153,19 +151,19 @@ a {
 }
 
 .skills-container {
-  height: 80vh;
-  margin-top: 20vh;
+  height: 37vw;
+  margin-top: 8vw;
 }
 
 .skills-container__title {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 28px;
-  padding: 50px;
-  margin-top: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 2vw;
   text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
 }
 
 .grid {
@@ -173,7 +171,8 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 60vh;
+  height: 30vw;
+  margin-top: 3vw;
 }
 
 #square {
@@ -181,7 +180,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #square:hover {
@@ -191,9 +190,9 @@ a {
 .skillsFlex {
   display: flex;
   justify-content: space-evenly;
-  height: 10vh;
+  height: 5vw;
   width: 60vw;
-  font-size: 16px;
+  font-size: 1.2vw;
   text-align: center;
 }
 
@@ -274,18 +273,18 @@ a {
 }
 
 .projects-container {
+  margin-top: 8vw;
   height: auto;
 }
 .projects-container button {
   width: 130px;
-  height: 42px;
+  height: 40px;
   border-radius: 20px;
   background-color: black;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
   color: white;
   border: 0;
   cursor: pointer;
@@ -295,14 +294,11 @@ a {
 }
 
 .projects-container__title {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 28px;
-  padding: 50px;
-  margin-top: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 2vw;
   text-align: center;
+  font-weight: 300;
+  margin-bottom: 5vw;
 }
 
 .project-1,
@@ -314,7 +310,7 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 70vh;
+  height: 30vw;
 }
 
 .project-1__text,
@@ -324,11 +320,8 @@ a {
 .project-5__text,
 .project-6__text {
   width: 30%;
-  padding: 5vw;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
+  padding: 3vw;
+  font-family: "Raleway", sans-serif;
   color: black;
   display: flex;
   flex-direction: column;
@@ -340,7 +333,7 @@ a {
 .project-4__text h2,
 .project-5__text h2,
 .project-6__text h2 {
-  font-size: 30px;
+  font-size: 2vw;
 }
 .project-1__text p,
 .project-2__text p,
@@ -348,8 +341,8 @@ a {
 .project-4__text p,
 .project-5__text p,
 .project-6__text p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1.2vw;
+  font-weight: 300;
 }
 
 .projectpic {
@@ -399,11 +392,11 @@ a {
 .project-4,
 .project-5,
 .project-6 {
-  margin-top: 20vh;
+  margin-top: 8vw;
 }
 
 .fas {
-  font-size: 28px;
+  font-size: 2vw;
 }
 
 .projecticons {
@@ -415,18 +408,17 @@ a {
   height: 100%;
   border: solid 0.5px #fdf5ec;
   background-color: #fdf5ec;
-  margin-top: 20%;
+  margin-top: 10vw;
 }
 .footer button {
   width: 130px;
-  height: 42px;
+  height: 40px;
   border-radius: 20px;
   background-color: black;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
   color: white;
   border: 0;
   cursor: pointer;
@@ -436,13 +428,10 @@ a {
 }
 
 .footer__text {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 28px;
-  padding: 50px;
-  margin-top: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 2vw;
+  font-weight: 300;
+  padding: 5vw;
 }
 
 .btn__footer {
@@ -451,26 +440,23 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 20vh;
-  margin: 10vh 0;
+  height: 14vw;
+  margin: 3vw 0;
 }
 .btn__footer p {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5vw;
   font-weight: 300;
-}
-
-hr {
-  color: rgba(27, 27, 27, 0.2);
 }
 
 /* Tablets and under */
 @media (max-width: 800px) {
   .home__headline {
     font-size: 28px;
+  }
+
+  .home {
+    height: 70%;
   }
 
   .about-container {
@@ -504,6 +490,10 @@ hr {
 }
 /*project section flex & font size*/
 @media (max-width: 685px) {
+  .home {
+    height: 65%;
+  }
+
   .about-container {
     height: 100vh;
   }
@@ -548,6 +538,10 @@ hr {
 @media (max-width: 550px) {
   .home__headline {
     font-size: 22px;
+  }
+
+  .home {
+    height: 55%;
   }
 
   .about-container__text h2 {

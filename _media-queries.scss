@@ -6,6 +6,10 @@
     font-size: 28px;
   }
 
+  .home {
+    height: 70%;
+  }
+
   .about-container {
     flex-direction: column-reverse;
     align-items: center;
@@ -37,6 +41,10 @@
 
 /*project section flex & font size*/
 @media (max-width: 685px) {
+.home {
+  height: 65%;
+}
+
   .about-container {
     height: 100vh;
   }
@@ -80,6 +88,9 @@
 @media (max-width: 550px) {
   .home__headline {
     font-size: 22px;
+  }
+  .home {
+    height: 55%;
   }
 
   .about-container__text {

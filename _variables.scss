@@ -1,19 +1,21 @@
-$prm-font: "PT Sans", sans-serif;
+$prm-font: "Raleway", sans-serif;
 
 @mixin prm-font {
   font-family: $prm-font;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
+  //letter-spacing: 0.4px;
+  //font-weight: 100;
+  //line-height: 1.2;
 }
 
 @mixin btn-1 {
   width: 130px;
-  height: 42px;
+  height: 40px;
   border-radius: 20px;
   background-color: black;
   @include prm-font;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
   color: white;
   border: 0;
   cursor: pointer;

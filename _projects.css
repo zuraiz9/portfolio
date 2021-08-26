@@ -1,16 +1,15 @@
 .projects-container {
+  margin-top: 8vw;
   height: auto;
 }
 .projects-container button {
   width: 130px;
-  height: 42px;
+  height: 40px;
   border-radius: 20px;
   background-color: black;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
   color: white;
   border: 0;
   cursor: pointer;
@@ -20,14 +19,11 @@
 }
 
 .projects-container__title {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 28px;
-  padding: 50px;
-  margin-top: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 2vw;
   text-align: center;
+  font-weight: 300;
+  margin-bottom: 5vw;
 }
 
 .project-1,
@@ -39,7 +35,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 70vh;
+  height: 30vw;
 }
 
 .project-1__text,
@@ -49,11 +45,8 @@
 .project-5__text,
 .project-6__text {
   width: 30%;
-  padding: 5vw;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
+  padding: 3vw;
+  font-family: "Raleway", sans-serif;
   color: black;
   display: flex;
   flex-direction: column;
@@ -65,7 +58,7 @@
 .project-4__text h2,
 .project-5__text h2,
 .project-6__text h2 {
-  font-size: 30px;
+  font-size: 2vw;
 }
 .project-1__text p,
 .project-2__text p,
@@ -73,8 +66,8 @@
 .project-4__text p,
 .project-5__text p,
 .project-6__text p {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 1.2vw;
+  font-weight: 300;
 }
 
 .projectpic {
@@ -124,11 +117,11 @@
 .project-4,
 .project-5,
 .project-6 {
-  margin-top: 20vh;
+  margin-top: 8vw;
 }
 
 .fas {
-  font-size: 28px;
+  font-size: 2vw;
 }
 
 .projecticons {

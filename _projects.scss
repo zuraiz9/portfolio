@@ -1,6 +1,7 @@
 @import "variables";
 
 .projects-container {
+  margin-top: 8vw;
   height: auto;
   button {
     @include btn-1;
@@ -11,8 +12,11 @@
 }
 
 .projects-container__title {
-  @include section-heading;
+  @include prm-font;
+  font-size: 2vw;
   text-align: center;
+  font-weight: 300;
+  margin-bottom: 5vw;
 }
 
 .project-1,
@@ -24,7 +28,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 70vh;
+  height: 30vw;
 }
 
 .project-1__text,
@@ -35,7 +39,7 @@
 .project-6__text {
   //background-color: #2e3138;
   width: 30%;
-  padding: 5vw;
+  padding: 3vw;
   @include prm-font;
   color: black;
   display: flex;
@@ -44,11 +48,11 @@
   justify-content: space-between;
   // text-align: center;
   h2 {
-    font-size: 30px;
+    font-size: 2vw;
   }
   p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 1.2vw;
+    font-weight: 300;
   }
 }
 
@@ -57,7 +61,6 @@
   background-color: black;
   height: 100%;
   width: 30%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,11 +103,11 @@
 .project-4,
 .project-5,
 .project-6 {
-  margin-top: 20vh;
+  margin-top: 8vw;
 }
 
 .fas {
-  font-size: 28px;
+  font-size: 2vw;
 }
 
 .projecticons {

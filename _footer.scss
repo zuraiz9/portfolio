@@ -4,7 +4,7 @@
   height: 100%;
   border: solid 0.5px rgba(253, 245, 236, 1);
   background-color: rgba(253, 245, 236, 1);
-  margin-top: 20%;
+  margin-top: 10vw;
   button {
     @include btn-1;
   }
@@ -14,7 +14,10 @@
 }
 
 .footer__text {
-  @include section-heading;
+  @include prm-font;
+  font-size: 2vw;
+  font-weight: 300;
+  padding: 5vw;
 }
 
 .btn__footer {
@@ -23,16 +26,12 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 20vh;
-  margin: 10vh 0;
+  height: 14vw;
+  margin: 3vw 0;
 
   p {
     @include prm-font;
-    font-size: 18px;
+    font-size: 1.5vw;
     font-weight: 300;
   }
-}
-
-hr {
-  color: rgba(27, 27, 27, 0.2)
 }

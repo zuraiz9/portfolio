@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 70vh;
+  height: 35vw;
   background: linear-gradient(#fdf5ec 45%, white 45%);
 }
 
@@ -11,19 +11,17 @@
   border-bottom-left-radius: 10px;
   background-color: #fcac8a;
   width: 35%;
+  max-height: 100%;
   padding: 30px;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
+  font-family: "Raleway", sans-serif;
 }
 .about-container__text h2 {
-  font-size: 2em;
+  font-size: 2vw;
 }
 .about-container__text p {
-  font-size: 1em;
+  font-size: 1.2vw;
   margin-top: 20px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .about-container__picture {
@@ -31,6 +29,7 @@
   border-bottom-right-radius: 10px;
   background-color: #75cfb8;
   width: 35%;
+  max-height: 100%;
 }
 
 .profilepic {

@@ -2,18 +2,17 @@
   height: 100%;
   border: solid 0.5px #fdf5ec;
   background-color: #fdf5ec;
-  margin-top: 20%;
+  margin-top: 10vw;
 }
 .footer button {
   width: 130px;
-  height: 42px;
+  height: 40px;
   border-radius: 20px;
   background-color: black;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
   color: white;
   border: 0;
   cursor: pointer;
@@ -23,13 +22,10 @@
 }
 
 .footer__text {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 34px;
-  padding: 50px;
-  margin-top: 5vh;
+  font-family: "Raleway", sans-serif;
+  font-size: 2vw;
+  font-weight: 300;
+  padding: 5vw;
 }
 
 .btn__footer {
@@ -38,18 +34,11 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 20vh;
-  margin: 10vh 0;
+  height: 14vw;
+  margin: 3vw 0;
 }
 .btn__footer p {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5vw;
   font-weight: 300;
-}
-
-hr {
-  color: rgba(27, 27, 27, 0.2);
 }

@@ -10,23 +10,21 @@ html {
 
 /*homepage */
 .home {
-  height: 85%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 4vw;
+  padding: 5vw;
 }
 .home button {
   width: 130px;
-  height: 42px;
+  height: 40px;
   border-radius: 20px;
   background-color: black;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
   color: white;
   border: 0;
   cursor: pointer;
@@ -40,11 +38,9 @@ html {
 }
 
 .home__headline {
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 0.4px;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5vw;
+  font-weight: 300;
 }
 
 .headline__name--color {
@@ -58,7 +54,7 @@ html {
 }
 
 .home__icons {
-  font-size: 30px;
+  font-size: 28px;
   padding: 10px;
 }
 
