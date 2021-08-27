@@ -55,7 +55,7 @@ html {
 
 /*homepage */
 .home {
-  height: 80%;
+  height: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -63,29 +63,28 @@ html {
   padding: 5vw;
 }
 .home button {
-  width: 130px;
-  height: 40px;
-  border-radius: 20px;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 1.5vw;
   background-color: black;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 1vw;
   font-weight: 300;
   letter-spacing: 0.8px;
   color: white;
   border: 0;
   cursor: pointer;
 }
-.home button a {
-  text-decoration: none;
-  color: white;
-}
 .home button:hover {
   transform: scale(0.96);
+  background-color: white;
+  color: black;
+  border: solid black 1px;
 }
 
 .home__headline {
   font-family: "Raleway", sans-serif;
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-weight: 300;
 }
 
@@ -95,17 +94,36 @@ html {
 
 .background {
   width: 100%;
-  height: 120vh;
+  height: 65vw;
   background-color: #fdf5ec;
 }
 
 .home__icons {
-  font-size: 28px;
-  padding: 10px;
+  width: 10vw;
+  display: flex;
+  justify-content: space-around;
 }
 
 a {
   color: black;
+}
+
+.fab {
+  font-size: 2vw;
+}
+
+.fab:hover {
+  transform: scale(0.96);
+  cursor: pointer;
+}
+
+.fas {
+  font-size: 2vw !important;
+}
+
+.fas:hover {
+  transform: scale(0.96);
+  cursor: pointer;
 }
 
 .about-container {
@@ -117,26 +135,28 @@ a {
 }
 
 .about-container__text {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 1.2vw;
+  border-bottom-left-radius: 1.2vw;
   background-color: #fcac8a;
   width: 35%;
   max-height: 100%;
-  padding: 30px;
+  padding: 3vw;
   font-family: "Raleway", sans-serif;
 }
 .about-container__text h2 {
   font-size: 2vw;
+  line-height: 140%;
 }
 .about-container__text p {
   font-size: 1.2vw;
-  margin-top: 20px;
+  margin-top: 1.6vw;
   font-weight: 300;
+  line-height: 140%;
 }
 
 .about-container__picture {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 1.2vw;
+  border-bottom-right-radius: 1.2vw;
   background-color: #75cfb8;
   width: 35%;
   max-height: 100%;
@@ -147,7 +167,7 @@ a {
   max-height: 100%;
   width: 100%;
   height: 100%;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 1.2vw;
 }
 
 .skills-container {
@@ -180,11 +200,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 10px;
-}
-
-#square:hover {
-  transform: scale(0.96);
+  border-radius: 1.2vw;
 }
 
 .skillsFlex {
@@ -213,62 +229,50 @@ p {
 }
 
 .div5 {
-  grid-area: 2/1/3/2;
   background-color: #fef7e1;
 }
 
 .div6 {
-  grid-area: 2/2/3/3;
   background-color: #f0e5d8;
 }
 
 .div7 {
-  grid-area: 2/3/3/4;
   background-color: #fdc478;
 }
 
 .div8 {
-  grid-area: 2/4/3/5;
   background-color: #75cfb8;
 }
 
 .div9 {
-  grid-area: 3/1/4/2;
   background-color: #75cfb8;
 }
 
 .div10 {
-  grid-area: 3/2/4/3;
   background-color: #fef7e1;
 }
 
 .div11 {
-  grid-area: 3/3/4/4;
   background-color: #f0e5d8;
 }
 
 .div12 {
-  grid-area: 3/4/4/5;
   background-color: #fdc478;
 }
 
 .div13 {
-  grid-area: 4/1/5/2;
   background-color: #fdc478;
 }
 
 .div14 {
-  grid-area: 4/2/5/3;
   background-color: #75cfb8;
 }
 
 .div15 {
-  grid-area: 4/3/5/4;
   background-color: #fef7e1;
 }
 
 .div16 {
-  grid-area: 4/4/5/5;
   background-color: #f0e5d8;
 }
 
@@ -277,12 +281,12 @@ p {
   height: auto;
 }
 .projects-container button {
-  width: 130px;
-  height: 40px;
-  border-radius: 20px;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 1.5vw;
   background-color: black;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 1vw;
   font-weight: 300;
   letter-spacing: 0.8px;
   color: white;
@@ -291,6 +295,9 @@ p {
 }
 .projects-container button:hover {
   transform: scale(0.96);
+  background-color: white;
+  color: black;
+  border: solid black 1px;
 }
 
 .projects-container__title {
@@ -346,7 +353,7 @@ p {
 }
 
 .projectpic {
-  border-radius: 10px;
+  border-radius: 1.2vw;
   background-color: black;
   height: 100%;
   width: 30%;
@@ -360,7 +367,7 @@ p {
   max-height: 100%;
   width: 80%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 1.2vw;
 }
 
 .game {
@@ -368,7 +375,7 @@ p {
   max-height: 100%;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 1.2vw;
 }
 
 .punkapi {
@@ -376,7 +383,7 @@ p {
   max-height: 100%;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 1.2vw;
 }
 
 .morseCode {
@@ -384,7 +391,7 @@ p {
   max-height: 100%;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 1.2vw;
 }
 
 .project-2,
@@ -411,12 +418,12 @@ p {
   margin-top: 10vw;
 }
 .footer button {
-  width: 130px;
-  height: 40px;
-  border-radius: 20px;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 1.5vw;
   background-color: black;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 1vw;
   font-weight: 300;
   letter-spacing: 0.8px;
   color: white;
@@ -425,6 +432,9 @@ p {
 }
 .footer button:hover {
   transform: scale(0.96);
+  background-color: white;
+  color: black;
+  border: solid black 1px;
 }
 
 .footer__text {

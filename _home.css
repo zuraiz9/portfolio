@@ -10,7 +10,7 @@ html {
 
 /*homepage */
 .home {
-  height: 80%;
+  height: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -18,28 +18,28 @@ html {
   padding: 5vw;
 }
 .home button {
-  width: 130px;
-  height: 40px;
-  border-radius: 20px;
+  width: 10vw;
+  height: 3vw;
+  border-radius: 1.5vw;
   background-color: black;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 1vw;
   font-weight: 300;
+  letter-spacing: 0.8px;
   color: white;
   border: 0;
   cursor: pointer;
 }
-.home button a {
-  text-decoration: none;
-  color: white;
-}
 .home button:hover {
   transform: scale(0.96);
+  background-color: white;
+  color: black;
+  border: solid black 1px;
 }
 
 .home__headline {
   font-family: "Raleway", sans-serif;
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-weight: 300;
 }
 
@@ -49,15 +49,34 @@ html {
 
 .background {
   width: 100%;
-  height: 120vh;
+  height: 65vw;
   background-color: #fdf5ec;
 }
 
 .home__icons {
-  font-size: 28px;
-  padding: 10px;
+  width: 10vw;
+  display: flex;
+  justify-content: space-around;
 }
 
 a {
   color: black;
+}
+
+.fab {
+  font-size: 2vw;
+}
+
+.fab:hover {
+  transform: scale(0.96);
+  cursor: pointer;
+}
+
+.fas {
+  font-size: 2vw !important;
+}
+
+.fas:hover {
+  transform: scale(0.96);
+  cursor: pointer;
 }

@@ -8,12 +8,16 @@ $prm-font: "Raleway", sans-serif;
 }
 
 @mixin btn-1 {
-  width: 130px;
-  height: 40px;
-  border-radius: 20px;
+  // width: 130px;
+  // height: 40px;
+  width: 10vw;
+  height: 3vw;
+  //border-radius: 20px;
+  border-radius: 1.5vw;
   background-color: black;
   @include prm-font;
-  font-size: 14px;
+  //font-size: 14px;
+  font-size: 1vw;
   font-weight: 300;
   letter-spacing: 0.8px;
   color: white;
@@ -35,6 +39,9 @@ $prm-font: "Raleway", sans-serif;
 
 @mixin btn-hover {
   transform: scale(0.96);
+  background-color: white;
+  color: black;
+  border: solid black 1px;
 }
 
 @mixin section-heading {
