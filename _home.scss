@@ -51,6 +51,7 @@ html {
   width: 10vw;
   display: flex;
   justify-content: space-around;
+  border: solid black 2px;
 }
 
 a {
@@ -66,9 +67,9 @@ a {
   cursor: pointer;
 }
 
-.fas {
-  font-size: 2vw !important;
-}
+// .fas {
+//   font-size: 2vw !important;
+// }
 
 .fas:hover {
   transform: scale(0.96);

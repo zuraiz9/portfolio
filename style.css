@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=PT+Sans&display=swap");
 .nav__logo {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 1.4vw;
   letter-spacing: 0.8px;
   font-weight: 300;
 }
 
 .nav {
   background-color: white;
-  height: 90px;
+  height: 7vw;
   width: 100%;
 }
 .nav ul {
@@ -17,11 +17,11 @@
   list-style-type: none;
 }
 .nav a {
-  padding: 10px;
-  margin: 0 5px;
+  padding: 1vw;
+  margin: 0 0.6vw;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1.2vw;
   letter-spacing: 0.8px;
   text-decoration: none;
   color: black;
@@ -33,7 +33,7 @@
 
 .nav__container {
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 4vw;
 }
 
 .--flex {
@@ -102,6 +102,7 @@ html {
   width: 10vw;
   display: flex;
   justify-content: space-around;
+  border: solid black 2px;
 }
 
 a {
@@ -115,10 +116,6 @@ a {
 .fab:hover {
   transform: scale(0.96);
   cursor: pointer;
-}
-
-.fas {
-  font-size: 2vw !important;
 }
 
 .fas:hover {
@@ -471,120 +468,5 @@ p {
 }
 
 /* Tablets and under */
-@media (max-width: 800px) {
-  .home__headline {
-    font-size: 28px;
-  }
-
-  .home {
-    height: 70%;
-  }
-
-  .about-container {
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 85vh;
-  }
-
-  .about-container__text {
-    width: 80%;
-    height: 50%;
-  }
-
-  .about-container__picture {
-    width: 80%;
-    height: 50%;
-  }
-
-  .project-1__text,
-.project-2__text,
-.project-3__text,
-.project-4__text,
-.project-5__text,
-.project-6__text {
-    width: 40%;
-  }
-
-  .projectpic {
-    width: 40%;
-  }
-}
 /*project section flex & font size*/
-@media (max-width: 685px) {
-  .home {
-    height: 65%;
-  }
-
-  .about-container {
-    height: 100vh;
-  }
-
-  .project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6 {
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 88vh;
-  }
-
-  .project-1__text,
-.project-2__text,
-.project-3__text,
-.project-4__text,
-.project-5__text,
-.project-6__text {
-    height: 50%;
-    width: 80%;
-  }
-
-  .projectpic {
-    height: 50%;
-    width: 80%;
-  }
-
-  .home__headline {
-    font-size: 26px;
-  }
-
-  .calc {
-    width: 50%;
-    max-width: 50%;
-    height: 100%;
-    max-height: 100%;
-  }
-}
-@media (max-width: 550px) {
-  .home__headline {
-    font-size: 22px;
-  }
-
-  .home {
-    height: 55%;
-  }
-
-  .about-container__text h2 {
-    font-size: 32px;
-  }
-  .about-container__text p {
-    font-size: 20px;
-  }
-
-  .nav {
-    height: 130px;
-  }
-
-  .nav .--flex {
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-}
 /*mobile*/
-@media (max-width: 450px) {
-  .nav a {
-    font-size: 14px;
-    padding: 5px;
-  }
-}
