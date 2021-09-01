@@ -18,10 +18,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <header class="background">
-      <div class="nav">
+      <div class="nav animate__animated animate__slideInDown animate__slow">
         <div class="nav__container --flex">
           <p id="homepage" class="nav__logo">ZC | Portfolio</p>
           <nav>
@@ -38,7 +42,7 @@
 
       <div class="home">
         <div class="home__headline">
-          <h1>
+          <h1 class="animate__animated animate__slideInLeft animate__slow">
             I'm <span class="headline__name--color">ZURAIZ</span>,
             <br />
             a Software Developer <br />
@@ -47,7 +51,12 @@
             MCR, UK.
           </h1>
         </div>
-        <div class="home__icons">
+        <div
+          class="
+            home__icons
+            animate__animated animate__slideInLeft animate__slow
+          "
+        >
           <a href="https://github.com/zuraiz9" target="_blank"
             ><i class="fab fa-github-square"></i
           ></a>
@@ -56,7 +65,11 @@
           ></a>
           <i class="fab fa-linkedin"></i>
         </div>
-        <a href="#about"><button>ABOUT ME</button></a>
+        <a href="#about"
+          ><button class="animate__animated animate__slideInUp animate__slow">
+            ABOUT ME
+          </button></a
+        >
       </div>
     </header>
 
@@ -137,7 +150,9 @@
               <a href="https://zuraiz9.github.io/calculator/" target="_blank"
                 ><i class="fas fa-rocket"></i
               ></a>
-              <i class="fas fa-code"></i>
+              <a href="https://github.com/zuraiz9/calculator" target="_blank"
+                ><i class="fas fa-code"></i
+              ></a>
             </div>
           </div>
           <div class="projectpic">
@@ -163,7 +178,9 @@
               <a href="https://zuraiz9.github.io/js-game/" target="_blank"
                 ><i class="fas fa-rocket"></i
               ></a>
-              <i class="fas fa-code"></i>
+              <a href="https://github.com/zuraiz9/js-game" target="_blank"
+                ><i class="fas fa-code"></i
+              ></a>
             </div>
           </div>
           <div class="projectpic">
@@ -177,13 +194,20 @@
 
             <p>
               A translator app built using JavaScript. Allows user to translate
-              input from English to morse, and vice versa.
+              an input from English to morse. This was a TDD project
+              implementing unit testing using Jest.
             </p>
             <div class="projecticons">
-              <a href="https://zuraiz9.github.io/js-game/" target="_blank"
+              <a
+                href="https://zuraiz9.github.io/morse-translator/"
+                target="_blank"
                 ><i class="fas fa-rocket"></i
               ></a>
-              <i class="fas fa-code"></i>
+              <a
+                href="https://github.com/zuraiz9/morse-translator"
+                target="_blank"
+                ><i class="fas fa-code"></i
+              ></a>
             </div>
           </div>
           <div class="projectpic">
@@ -204,10 +228,12 @@
               and filtering functionality. Hosted with FireBase.
             </p>
             <div class="projecticons">
-              <a href="https://zuraiz9.github.io/js-game/" target="_blank"
+              <a href="https://punk-api-2a5ec.web.app" target="_blank"
                 ><i class="fas fa-rocket"></i
               ></a>
-              <i class="fas fa-code"></i>
+              <a href="https://github.com/zuraiz9/punk-api" target="_blank"
+                ><i class="fas fa-code"></i
+              ></a>
             </div>
           </div>
           <div class="projectpic">
@@ -219,8 +245,11 @@
           <div class="project-5__text">
             <h2>Client Project</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ab
-              corporis magnam ipsa impedit nihil
+              A web app created for a client to track, monitor and edit details
+              for Cohort-Based Courses. Used ReactJS for development and
+              FireBase for hosting. An Agile methodology was applied for the
+              project build. I had the role of product owner for the final
+              sprint.
             </p>
             <div class="projecticons">
               <a href="https://nology-login.web.app" target="_blank"
@@ -237,10 +266,7 @@
         <section class="project-6">
           <div class="project-6__text">
             <h2>Full Stack Project</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ab
-              corporis magnam ipsa impedit nihil
-            </p>
+            <p>Full stack movie tracker app COMING SOON!</p>
             <div class="projecticons">
               <a href="https://zuraiz9.github.io/js-game/" target="_blank"
                 ><i class="fas fa-rocket"></i
