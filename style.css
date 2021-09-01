@@ -102,7 +102,6 @@ html {
   width: 10vw;
   display: flex;
   justify-content: space-around;
-  border: solid black 2px;
 }
 
 a {
@@ -470,3 +469,215 @@ p {
 /* Tablets and under */
 /*project section flex & font size*/
 /*mobile*/
+@media (max-width: 450px) {
+  .nav {
+    height: 22vw;
+  }
+
+  .nav .--flex {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .nav__logo {
+    font-size: 4vw;
+  }
+
+  .nav a {
+    font-size: 2.8vw;
+  }
+
+  .home {
+    height: 120vw;
+  }
+  .home button {
+    width: 25vw;
+    height: 6vw;
+    font-size: 2.6vw;
+    border-radius: 3vw;
+  }
+
+  .background {
+    height: 160vw;
+  }
+
+  .home__headline {
+    font-size: 5vw;
+  }
+
+  .home__icons {
+    width: 25vw;
+  }
+
+  .fab {
+    font-size: 5vw;
+  }
+
+  .about-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 140vw;
+  }
+
+  .about-container__text {
+    width: 70%;
+    height: 50%;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    padding: 5vw;
+  }
+  .about-container__text h2 {
+    font-size: 3.8vw;
+  }
+  .about-container__text p {
+    font-size: 2.6vw;
+    margin-top: 2vw;
+  }
+
+  .about-container__picture {
+    width: 70%;
+    height: 50%;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+  }
+
+  .profilepic {
+    border-bottom-right-radius: 0;
+  }
+
+  .skills-container {
+    height: 90vw;
+    margin-top: 15vw;
+  }
+
+  .skills-container__title {
+    font-size: 3.8vw;
+  }
+
+  .grid {
+    height: 75vw;
+    margin-top: 6vw;
+  }
+
+  #square {
+    border-radius: 3vw;
+  }
+
+  .skillsFlex {
+    height: 12vw;
+    width: 94vw;
+    font-size: 2.6vw;
+  }
+
+  .projects-container {
+    margin-top: 15vw;
+  }
+
+  .projects-container__title {
+    font-size: 3.8vw;
+    margin-bottom: 10vw;
+  }
+
+  .project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 130vw;
+  }
+
+  .project-1__text,
+.project-2__text,
+.project-3__text,
+.project-4__text,
+.project-5__text,
+.project-6__text {
+    width: 70%;
+    height: 50%;
+    padding: 5vw;
+  }
+  .project-1__text h2,
+.project-2__text h2,
+.project-3__text h2,
+.project-4__text h2,
+.project-5__text h2,
+.project-6__text h2 {
+    font-size: 4vw;
+  }
+  .project-1__text p,
+.project-2__text p,
+.project-3__text p,
+.project-4__text p,
+.project-5__text p,
+.project-6__text p {
+    font-size: 2.8vw;
+  }
+
+  .projectpic {
+    border-radius: 3vw;
+    height: 50%;
+    width: 70%;
+  }
+
+  .calc {
+    max-width: 50%;
+    width: 50%;
+    border-radius: 3vw;
+  }
+
+  .game {
+    border-radius: 3vw;
+  }
+
+  .punkapi {
+    border-radius: 3vw;
+  }
+
+  .morseCode {
+    border-radius: 3vw;
+  }
+
+  .nologer {
+    border-radius: 3vw;
+  }
+
+  .project-2,
+.project-3,
+.project-4,
+.project-5,
+.project-6 {
+    margin-top: 15vw;
+  }
+
+  .fas {
+    font-size: 5vw;
+  }
+
+  .footer {
+    margin-top: 15vw;
+  }
+  .footer button {
+    width: 25vw;
+    height: 6vw;
+    font-size: 2.6vw;
+    border-radius: 3vw;
+  }
+
+  .footer__text {
+    font-size: 4vw;
+  }
+
+  .btn__footer {
+    height: 30vw;
+    margin: 6vw 0;
+  }
+  .btn__footer p {
+    font-size: 2.8vw;
+  }
+}
